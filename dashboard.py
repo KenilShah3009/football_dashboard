@@ -3,7 +3,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
-import os
 
 # Set page config
 st.set_page_config(page_title="Soccer Data Analysis", layout="wide")
@@ -23,9 +22,9 @@ def load_data(file_path, skip_first_row=False):
 page = st.sidebar.selectbox("Choose a page", ["Pocession Analysis", "League Table Analysis"])
 
 # Define relative paths to your data files
-pocession_file_path = os.path.join("data", "Pocession.xlsx")
-player_file_path = os.path.join("data", "Player basic data.xlsx")
-league_table_file_path = os.path.join("data", "League table.xlsx")
+pocession_file_path = './data/Pocession.xlsx'
+player_file_path = './data/Player basic data.xlsx'
+league_table_file_path = './data/League table.xlsx'
 
 if page == "Pocession Analysis":
     st.title("Chelsea Soccer Pocession Analysis Dashboard")
