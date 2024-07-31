@@ -3,6 +3,9 @@
 ## Overview
 As a data analyst for Chelsea FC, this project aims to analyze the club's significant performance decline during the 2022-2023 Premier League season, where they currently sit in 12th place. The goal is to identify key factors contributing to this slump and present actionable recommendations to the board of directors.
 
+## Dashboard Link
+https://chelsea-data-analysis.streamlit.app/
+
 ## Objectives
 - **Identify Key Factors**: Analyze data to uncover the main reasons behind Chelsea's performance slump.
 - **Recommendations**: Suggest potential solutions, including transfer targets or tactical adjustments.
